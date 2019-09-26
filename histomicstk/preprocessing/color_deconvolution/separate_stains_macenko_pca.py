@@ -1,4 +1,7 @@
-import histomicstk.utils as utils
+import sys
+sys.path.append("D:/GitHub/HistomicsTK/histomicstk")
+
+import utils as utils
 from . import _linalg as linalg
 from .complement_stain_matrix import complement_stain_matrix
 

@@ -1,6 +1,6 @@
 import numpy as np
 
-import histomicstk.utils as htk_utils
+from ... import utils as htk_utils
 
 
 def vesselness(im_input, sigma):

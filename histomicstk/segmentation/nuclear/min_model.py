@@ -1,4 +1,4 @@
-from histomicstk.segmentation import label
+from .. import label
 import numpy as np
 import scipy.ndimage.filters as ft
 import scipy.ndimage.measurements as ms

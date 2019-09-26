@@ -3,7 +3,7 @@ import numpy as np
 import sklearn.cluster as cl
 import scipy.signal as signal
 
-import histomicstk as htk
+from .... import histomicstk as htk
 
 
 def gaussian_voting(I, rmax=35, rmin=10, sSigma=5, Tau=5, bw=15, Psi=0.3):

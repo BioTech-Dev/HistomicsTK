@@ -1,8 +1,8 @@
 import numpy as np
 import scipy as sp
 import skimage.morphology
-import histomicstk.filters.shape as htk_shape_filters
-import histomicstk as htk
+from ...filters import shape as htk_shape_filters
+from .... import histomicstk as htk
 
 
 def detect_nuclei_kofahi(im_nuclei_stain, im_nuclei_fgnd_mask, min_radius,

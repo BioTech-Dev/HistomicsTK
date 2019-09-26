@@ -1,4 +1,7 @@
-import histomicstk.utils as utils
+import sys
+sys.path.append("D:/GitHub/HistomicsTK/histomicstk")
+
+import utils as utils
 from . import _linalg as htk_linalg
 
 import nimfa

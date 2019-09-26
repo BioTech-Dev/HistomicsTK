@@ -7,7 +7,7 @@ from .compute_haralick_features import compute_haralick_features
 from .compute_intensity_features import compute_intensity_features
 from .compute_morphometry_features import compute_morphometry_features
 
-from histomicstk.segmentation import label as htk_label
+from ..segmentation import label as htk_label
 
 
 def compute_nuclei_features(im_label, im_nuclei, im_cytoplasm=None,

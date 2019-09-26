@@ -5,7 +5,7 @@ This package contains functions for segmenting a variety of objects/structures
 
 # make functions available at the package level using shadow imports
 # since we mostly have one function per file
-from histomicstk.utils.simple_mask import simple_mask
+from ..utils.simple_mask import simple_mask
 from .embed_boundaries import embed_boundaries
 from .rag_color import rag_color
 from .rag import rag

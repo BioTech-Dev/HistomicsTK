@@ -1,5 +1,8 @@
-from histomicstk.preprocessing import color_conversion
-import histomicstk.utils as utils
+import sys
+sys.path.append("D:/GitHub/HistomicsTK/histomicstk")
+
+from preprocessing import color_conversion
+import utils as utils
 from ._linalg import normalize
 from .complement_stain_matrix import complement_stain_matrix
 import collections

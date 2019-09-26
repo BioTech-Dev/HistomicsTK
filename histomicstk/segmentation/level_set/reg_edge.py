@@ -1,4 +1,4 @@
-import histomicstk.utils as htk_utls
+from ... import utils as htk_utls
 import numpy as np
 import scipy.ndimage.filters as filters
 

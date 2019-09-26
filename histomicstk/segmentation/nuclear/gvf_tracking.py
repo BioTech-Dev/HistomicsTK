@@ -1,4 +1,4 @@
-from histomicstk.utils import gradient_diffusion
+from ...utils import gradient_diffusion
 import numpy as np
 import skimage.morphology as mp
 from skimage import measure as ms
