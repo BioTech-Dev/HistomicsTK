@@ -1,7 +1,4 @@
-import sys
-sys.path.append("D:/GitHub/HistomicsTK/histomicstk")
-
-from preprocessing import color_conversion
+from ...preprocessing import color_conversion
 import numpy as np
 
 

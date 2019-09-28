@@ -1,10 +1,7 @@
-import sys
-sys.path.append("D:/GitHub/HistomicsTK/histomicstk")
-
 import collections
 import numpy as np
-from utils import sample_pixels
-from preprocessing import color_conversion
+from ...utils import sample_pixels
+from ...preprocessing import color_conversion
 
 
 def reinhard_stats(slide_path, sample_fraction, magnification=None,

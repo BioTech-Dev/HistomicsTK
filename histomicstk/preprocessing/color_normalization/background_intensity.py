@@ -1,7 +1,4 @@
-import sys
-sys.path.append("D:/GitHub/HistomicsTK/histomicstk")
-
-from utils import sample_pixels
+from ...utils import sample_pixels
 import numpy
 
 

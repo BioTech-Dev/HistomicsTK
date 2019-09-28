@@ -1,9 +1,6 @@
-import sys
-sys.path.append("D:/GitHub/HistomicsTK/histomicstk")
-
 import numpy as np
-import utils as utils
-from preprocessing import color_conversion
+from ... import utils as utils
+from ...preprocessing import color_conversion
 
 
 def color_convolution(im_stains, w, I_0=None):
